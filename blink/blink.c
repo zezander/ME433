@@ -64,7 +64,6 @@ static const char *gpio_irq_str[] = {
 //                 *buf++ = *event_str++;
 //             }
 //             events &= ~mask;
-
 //             // If more events add ", "
 //             if (events) {
 //                 *buf++ = ',';
