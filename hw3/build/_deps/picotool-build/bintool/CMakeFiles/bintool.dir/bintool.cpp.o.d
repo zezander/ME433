@@ -1,5 +1,5 @@
 bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/bintool/bintool.cpp \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/bintool/bintool.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -1035,17 +1035,17 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf/elf_file.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf/elf.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf/elf_file.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf/elf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf/addresses.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf/addresses.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha256.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/build_info.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
@@ -1062,7 +1062,7 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/pk.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/version.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/error.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/bintool/bintool.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/bintool/metadata.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/bintool/bintool.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/bintool/metadata.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/errors/errors.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/errors/errors.h

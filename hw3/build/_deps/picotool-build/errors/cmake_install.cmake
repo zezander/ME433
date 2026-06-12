@@ -1,8 +1,8 @@
-# Install script for directory: /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/errors
+# Install script for directory: /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/errors
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/zanderchierici/Desktop/ME433/hw3/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/errors/install_local_manifest.txt"
+  file(WRITE "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/errors/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

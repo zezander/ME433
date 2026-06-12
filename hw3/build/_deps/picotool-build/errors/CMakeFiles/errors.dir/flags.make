@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/errors
+CXX_INCLUDES = -I/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/errors
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++14 -arch arm64
 

@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zanderchierici/Desktop/ME433/hw3
+CMAKE_SOURCE_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zanderchierici/Desktop/ME433/hw3/build
+CMAKE_BINARY_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw3/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/progress.
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2350/boot_stage2/bs2_default.bin: pico-sdk/src/rp2350/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2 && /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf /Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2 && /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/codegen:
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/codegen
@@ -85,10 +85,10 @@ pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_defaul
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Desktop/ME433/hw3 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/boot_stage2 /Users/zanderchierici/Desktop/ME433/hw3/build /Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2 /Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_bin
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Documents/GitHub/ME433/hw3 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/boot_stage2 /Users/zanderchierici/Documents/GitHub/ME433/hw3/build /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2 /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_bin
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

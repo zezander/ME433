@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zanderchierici/Desktop/ME433/HW2
+CMAKE_SOURCE_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zanderchierici/Desktop/ME433/HW2/build
+CMAKE_BINARY_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw2/build
 
 # Include any dependencies generated for this target.
 include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/depend.make
@@ -70,28 +70,28 @@ include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/progr
 include pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/flags.make
 
 pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S: pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /usr/bin/python3 /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/rp2350/boot_stage2/pad_checksum -s 0xffffffff -a arm /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /usr/bin/python3 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/boot_stage2/pad_checksum -s 0xffffffff -a arm /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2350/boot_stage2/bs2_default.bin: pico-sdk/src/rp2350/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/codegen:
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/codegen
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/flags.make
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o: pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o   -c /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o   -c /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.i"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S > CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S > CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.i
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.s"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S -o CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S -o CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.s
 
 bs2_default_library: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 bs2_default_library: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make
@@ -102,11 +102,11 @@ pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/build: bs2_de
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/build
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/clean:
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_library.dir/cmake_clean.cmake
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_library.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/clean
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/depend: pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/depend: pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Desktop/ME433/HW2 /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/rp2350/boot_stage2 /Users/zanderchierici/Desktop/ME433/HW2/build /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_library
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Documents/GitHub/ME433/hw2 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/boot_stage2 /Users/zanderchierici/Documents/GitHub/ME433/hw2/build /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake "--color=$(COLOR)" bs2_default_library
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/depend
 

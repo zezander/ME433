@@ -39,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/tools/cmake_install.cmake")
+  include("/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/tools/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/cmake_install.cmake")
+  include("/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/docs/cmake_install.cmake")
+  include("/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/docs/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/install_local_manifest.txt"
+  file(WRITE "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

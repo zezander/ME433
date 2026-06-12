@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/CMakeFiles /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/lib//CMakeFiles/progress.marks
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/CMakeFiles 0
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/CMakeFiles /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/lib//CMakeFiles/progress.marks
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/mbedtls.dir/rule:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/mbedtls.dir/rule
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/mbedtls.dir/rule
 .PHONY : lib/CMakeFiles/mbedtls.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ mbedtls: lib/CMakeFiles/mbedtls.dir/rule
 
 # fast build rule for target.
 mbedtls/fast:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/build
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/build
 .PHONY : mbedtls/fast
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.o
@@ -180,7 +180,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.o: Users/zander
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.i
@@ -188,7 +188,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.i: Users/zander
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.s
@@ -196,7 +196,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.s: Users/zander
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aes.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.o
@@ -204,7 +204,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.o: Users/zand
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.i
@@ -212,7 +212,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.i: Users/zand
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.s
@@ -220,7 +220,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.s: Users/zand
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.o
@@ -228,7 +228,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.o: Users/zande
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.i
@@ -236,7 +236,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.i: Users/zande
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.s
@@ -244,7 +244,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.s: Users/zande
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.o
@@ -252,7 +252,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.o: Users/
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.i
@@ -260,7 +260,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.i: Users/
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.s
@@ -268,7 +268,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.s: Users/
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.o
@@ -276,7 +276,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.o: Users/
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.i
@@ -284,7 +284,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.i: Users/
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.s
@@ -292,7 +292,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.s: Users/
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.o
@@ -300,7 +300,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.o: Users/zan
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.i
@@ -308,7 +308,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.i: Users/zan
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.s
@@ -316,7 +316,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.s: Users/zan
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.o
@@ -324,7 +324,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.o: Users/zan
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.i
@@ -332,7 +332,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.i: Users/zan
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.s
@@ -340,7 +340,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.s: Users/zan
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.o
@@ -348,7 +348,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.o: User
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.i
@@ -356,7 +356,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.i: User
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.s
@@ -364,7 +364,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.s: User
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.o
@@ -372,7 +372,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.o: Users/z
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.i
@@ -380,7 +380,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.i: Users/z
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.s
@@ -388,7 +388,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.s: Users/z
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.o
@@ -396,7 +396,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.o: Users/zander
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.i
@@ -404,7 +404,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.i: Users/zander
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.s
@@ -412,7 +412,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.s: Users/zander
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.o
@@ -420,7 +420,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.o: Users/z
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.i
@@ -428,7 +428,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.i: Users/z
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.s
@@ -436,7 +436,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.s: Users/z
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.o
@@ -444,7 +444,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.o: Users
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.i
@@ -452,7 +452,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.i: Users
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.s
@@ -460,7 +460,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.s: Users
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.o
@@ -468,7 +468,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.o: Users/zan
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.i
@@ -476,7 +476,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.i: Users/zan
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.s
@@ -484,7 +484,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.s: Users/zan
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.o
@@ -492,7 +492,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.o: User
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.i
@@ -500,7 +500,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.i: User
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.s
@@ -508,7 +508,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.s: User
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.o
@@ -516,7 +516,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.o: Users/zande
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.i
@@ -524,7 +524,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.i: Users/zande
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.s
@@ -532,7 +532,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.s: Users/zande
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.o
@@ -540,7 +540,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.o: Us
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.i
@@ -548,7 +548,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.i: Us
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.s
@@ -556,7 +556,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.s: Us
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.o
@@ -564,7 +564,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.o: Users/z
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.i
@@ -572,7 +572,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.i: Users/z
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.s
@@ -580,7 +580,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.s: Users/z
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.o
@@ -588,7 +588,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.o: Users/zander
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.i
@@ -596,7 +596,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.i: Users/zander
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.s
@@ -604,7 +604,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.s: Users/zander
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.o
@@ -612,7 +612,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.o: Users/zander
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.i
@@ -620,7 +620,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.i: Users/zander
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.s
@@ -628,7 +628,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.s: Users/zander
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.o
@@ -636,7 +636,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.o: Users/zande
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.i
@@ -644,7 +644,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.i: Users/zande
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.s
@@ -652,7 +652,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.s: Users/zande
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.o
@@ -660,7 +660,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.o: Users/zand
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.i
@@ -668,7 +668,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.i: Users/zand
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.s
@@ -676,7 +676,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.s: Users/zand
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.o
@@ -684,7 +684,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.o: Users/za
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.i
@@ -692,7 +692,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.i: Users/za
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.s
@@ -700,7 +700,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.s: Users/za
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.o
@@ -708,7 +708,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.o: Users/zander
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.i
@@ -716,7 +716,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.i: Users/zander
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.s
@@ -724,7 +724,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.s: Users/zander
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.o
@@ -732,7 +732,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.o: Users
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.i
@@ -740,7 +740,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.i: Users
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.s
@@ -748,7 +748,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.s: Users
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.o
@@ -756,7 +756,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.o: Users/za
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.i
@@ -764,7 +764,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.i: Users/za
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.s
@@ -772,7 +772,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.s: Users/za
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.o
@@ -780,7 +780,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.o: Use
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.i
@@ -788,7 +788,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.i: Use
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.s
@@ -796,7 +796,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.s: Use
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.o
@@ -804,7 +804,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.o: Users/zand
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.i
@@ -812,7 +812,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.i: Users/zand
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.s
@@ -820,7 +820,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.s: Users/zand
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.o
@@ -828,7 +828,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.o: Users/zander
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.i
@@ -836,7 +836,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.i: Users/zander
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.s
@@ -844,7 +844,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.s: Users/zander
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.o
@@ -852,7 +852,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.o: Users/zande
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.i
@@ -860,7 +860,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.i: Users/zande
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.s
@@ -868,7 +868,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.s: Users/zande
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.o
@@ -876,7 +876,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.o: Users/
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.i
@@ -884,7 +884,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.i: Users/
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.s
@@ -892,7 +892,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.s: Users/
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.o
@@ -900,7 +900,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.o: Users/zanderc
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.i
@@ -908,7 +908,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.i: Users/zanderc
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.s
@@ -916,7 +916,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.s: Users/zanderc
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.o
@@ -924,7 +924,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.o: Users/zander
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.i
@@ -932,7 +932,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.i: Users/zander
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.s
@@ -940,7 +940,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.s: Users/zander
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.o
@@ -948,7 +948,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.i
@@ -956,7 +956,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.s
@@ -964,7 +964,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.o
@@ -972,7 +972,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.o: Users
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.i
@@ -980,7 +980,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.i: Users
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.s
@@ -988,7 +988,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.s: Users
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.o
@@ -996,7 +996,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.o: Users/
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.i
@@ -1004,7 +1004,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.i: Users/
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.s
@@ -1012,7 +1012,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.s: Users/
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.o
@@ -1020,7 +1020,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.o: Users/za
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.i
@@ -1028,7 +1028,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.i: Users/za
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.s
@@ -1036,7 +1036,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.s: Users/za
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.o
@@ -1044,7 +1044,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.o: Users/zander
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.i
@@ -1052,7 +1052,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.i: Users/zander
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.s
@@ -1060,7 +1060,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.s: Users/zander
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.o
@@ -1068,7 +1068,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.o: Users/za
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.i
@@ -1076,7 +1076,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.i: Users/za
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.s
@@ -1084,7 +1084,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.s: Users/za
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.o
@@ -1092,7 +1092,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.o: Users/zander
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.i
@@ -1100,7 +1100,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.i: Users/zander
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.s
@@ -1108,7 +1108,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.s: Users/zander
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.o
@@ -1116,7 +1116,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.o: Users/zanderc
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.i
@@ -1124,7 +1124,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.i: Users/zanderc
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.s
@@ -1132,7 +1132,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.s: Users/zanderc
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.o
@@ -1140,7 +1140,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.o: Users/zan
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.i
@@ -1148,7 +1148,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.i: Users/zan
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.s
@@ -1156,7 +1156,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.s: Users/zan
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.o
@@ -1164,7 +1164,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.o: Users/za
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.i
@@ -1172,7 +1172,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.i: Users/za
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.s
@@ -1180,7 +1180,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.s: Users/za
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.o
@@ -1188,7 +1188,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.o: Users/zan
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.i
@@ -1196,7 +1196,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.i: Users/zan
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.s
@@ -1204,7 +1204,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.s: Users/zan
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.o
@@ -1212,7 +1212,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.o: Users/zand
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.i
@@ -1220,7 +1220,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.i: Users/zand
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.s
@@ -1228,7 +1228,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.s: Users/zand
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.o
@@ -1236,7 +1236,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.o: Users/za
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.i
@@ -1244,7 +1244,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.i: Users/za
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.s
@@ -1252,7 +1252,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.s: Users/za
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.o
@@ -1260,7 +1260,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.o: Users/za
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.i
@@ -1268,7 +1268,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.i: Users/za
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.s
@@ -1276,7 +1276,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.s: Users/za
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.o
@@ -1284,7 +1284,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.o: Users/z
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.i
@@ -1292,7 +1292,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.i: Users/z
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.s
@@ -1300,7 +1300,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.s: Users/z
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.o
@@ -1308,7 +1308,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.o: Us
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.i
@@ -1316,7 +1316,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.i: Us
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.s
@@ -1324,7 +1324,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.s: Us
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.o
@@ -1332,7 +1332,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.o: Users/z
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.i
@@ -1340,7 +1340,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.i: Users/z
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.s
@@ -1348,7 +1348,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.s: Users/z
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.o
@@ -1356,7 +1356,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.o: Users
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.i
@@ -1364,7 +1364,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.i: Users
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.s
@@ -1372,7 +1372,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.s: Users
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.o
@@ -1380,7 +1380,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.o: 
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.i
@@ -1388,7 +1388,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.i: 
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.s
@@ -1396,7 +1396,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.s: 
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.o
@@ -1404,7 +1404,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.o
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.i
@@ -1412,7 +1412,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.i
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.s
@@ -1420,7 +1420,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.s
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.o
@@ -1428,7 +1428,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.o
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.i
@@ -1436,7 +1436,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.i
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.s
@@ -1444,7 +1444,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.s
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.o
@@ -1452,7 +1452,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.o: U
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.i
@@ -1460,7 +1460,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.i: U
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.s
@@ -1468,7 +1468,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.s: U
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.o
@@ -1476,7 +1476,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.o: 
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.i
@@ -1484,7 +1484,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.i: 
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.s
@@ -1492,7 +1492,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.s: 
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.o
@@ -1500,7 +1500,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.o: U
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.i
@@ -1508,7 +1508,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.i: U
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.s
@@ -1516,7 +1516,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.s: U
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.o
@@ -1524,7 +1524,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.o: U
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.i
@@ -1532,7 +1532,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.i: U
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.s
@@ -1540,7 +1540,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.s: U
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.o
@@ -1548,7 +1548,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.o: Us
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.i
@@ -1556,7 +1556,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.i: Us
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.s
@@ -1564,7 +1564,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.s: Us
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.o
@@ -1572,7 +1572,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_man
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.i
@@ -1580,7 +1580,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_man
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.s
@@ -1588,7 +1588,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_man
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.o
@@ -1596,7 +1596,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.i
@@ -1604,7 +1604,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.s
@@ -1612,7 +1612,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.o
@@ -1620,7 +1620,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.o: Use
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.i
@@ -1628,7 +1628,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.i: Use
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.s
@@ -1636,7 +1636,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.s: Use
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.o
@@ -1644,7 +1644,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.o: Users/
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.i
@@ -1652,7 +1652,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.i: Users/
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.s
@@ -1660,7 +1660,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.s: Users/
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.o
@@ -1668,7 +1668,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.o: Users/zander
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.i
@@ -1676,7 +1676,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.i: Users/zander
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.s
@@ -1684,7 +1684,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.s: Users/zander
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.o
@@ -1692,7 +1692,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.o: 
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.i
@@ -1700,7 +1700,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.i: 
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.s
@@ -1708,7 +1708,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.s: 
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.o
@@ -1716,7 +1716,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.o: Users/zande
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.i
@@ -1724,7 +1724,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.i: Users/zande
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.s
@@ -1732,7 +1732,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.s: Users/zande
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.o
@@ -1740,7 +1740,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.o: Users/zan
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.i
@@ -1748,7 +1748,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.i: Users/zan
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.s
@@ -1756,7 +1756,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.s: Users/zan
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.o
@@ -1764,7 +1764,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.o: Users/zan
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.i
@@ -1772,7 +1772,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.i: Users/zan
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.s
@@ -1780,7 +1780,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.s: Users/zan
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.o
@@ -1788,7 +1788,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.o: Users/
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.i
@@ -1796,7 +1796,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.i: Users/
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.s
@@ -1804,7 +1804,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.s: Users/
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.o
@@ -1812,7 +1812,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.o: Users/zan
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.i
@@ -1820,7 +1820,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.i: Users/zan
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.s
@@ -1828,7 +1828,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.s: Users/zan
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.o
@@ -1836,7 +1836,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.o: Users/za
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.i
@@ -1844,7 +1844,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.i: Users/za
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.s
@@ -1852,7 +1852,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.s: Users/za
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.s
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.o: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.o
@@ -1860,7 +1860,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.o:
 
 # target to build an object file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.o:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.o
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.o
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.o
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.i: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.i
@@ -1868,7 +1868,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.i:
 
 # target to preprocess a source file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.i:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.i
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.i
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.i
 
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.s: Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.s
@@ -1876,7 +1876,7 @@ Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.s:
 
 # target to generate assembly for a file
 Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.s:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.s
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.s
 .PHONY : Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.s
 
 # Help Target
@@ -2116,6 +2116,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

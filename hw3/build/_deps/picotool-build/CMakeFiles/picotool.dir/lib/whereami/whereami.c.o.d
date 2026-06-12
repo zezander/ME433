@@ -1,6 +1,6 @@
 CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/whereami/whereami.c \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/whereami/whereami.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/whereami/whereami.c \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/whereami/whereami.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \

@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zanderchierici/Desktop/ME433/HW2
+CMAKE_SOURCE_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zanderchierici/Desktop/ME433/HW2/build
+CMAKE_BINARY_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw2/build
 
 # Utility rule file for picotoolBuild.
 
@@ -77,52 +77,52 @@ pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E make_directory /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E make_directory /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild-complete
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-done
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build && $(MAKE)
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure: pico-sdk/src/rp2350/boot_stage2/picotool/tmp/picotoolBuild-cfgcmd.txt
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build && /opt/homebrew/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make -DPICO_SDK_PATH:FILEPATH=/Users/zanderchierici/.pico-sdk/sdk/2.1.1 -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/zanderchierici/Desktop/ME433/HW2/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -S /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src -B /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build && /opt/homebrew/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make -DPICO_SDK_PATH:FILEPATH=/Users/zanderchierici/.pico-sdk/sdk/2.2.0 -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -S /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src -B /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-source_dirinfo.txt
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build && $(MAKE) install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build && $(MAKE) install
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -Dcfgdir= -P /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/picotool/tmp/picotoolBuild-mkdirs.cmake
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -Dcfgdir= -P /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/picotool/tmp/picotoolBuild-mkdirs.cmake
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch-info.txt
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build && /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool/picotool version 2.1.1
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build && /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool/picotool version 2.1.1
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test
 
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update-info.txt
 pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update: pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/HW2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E echo_append
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/codegen:
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/codegen
@@ -145,10 +145,10 @@ pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/build: picotoolBuil
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/build
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/clean:
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolBuild.dir/cmake_clean.cmake
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/picotoolBuild.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/clean
 
 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/depend:
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Desktop/ME433/HW2 /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/rp2350/boot_stage2 /Users/zanderchierici/Desktop/ME433/HW2/build /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2 /Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/DependInfo.cmake "--color=$(COLOR)" picotoolBuild
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Documents/GitHub/ME433/hw2 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/boot_stage2 /Users/zanderchierici/Documents/GitHub/ME433/hw2/build /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2 /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/DependInfo.cmake "--color=$(COLOR)" picotoolBuild
 .PHONY : pico-sdk/src/rp2350/boot_stage2/CMakeFiles/picotoolBuild.dir/depend
 

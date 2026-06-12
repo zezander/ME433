@@ -1,6 +1,6 @@
 CMakeFiles/picotool.dir/main.cpp.o: \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/main.cpp \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/cli.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/main.cpp \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/cli.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -977,7 +977,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/clipp/clipp.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/clipp/clipp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cinttypes \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/inttypes.h \
@@ -1029,7 +1029,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/get_enc_bootloader.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/get_enc_bootloader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -1049,16 +1049,16 @@ CMakeFiles/picotool.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_picoboot_headers/include/boot/picoboot.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf/addresses.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/bintool/bintool.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf/addresses.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/bintool/bintool.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha256.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/build_info.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
@@ -1074,10 +1074,10 @@ CMakeFiles/picotool.dir/main.cpp.o: \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/entropy.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/pk.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/version.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf/elf_file.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf/elf.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/bintool/metadata.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf/elf_file.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf/elf.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/bintool/metadata.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/defs.h \
@@ -1085,11 +1085,11 @@ CMakeFiles/picotool.dir/main.cpp.o: \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/code.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/otp.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/otp.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/valarray \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/errors/errors.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/errors/errors.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h \

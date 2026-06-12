@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zanderchierici/Desktop/ME433/hw3
+CMAKE_SOURCE_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zanderchierici/Desktop/ME433/hw3/build
+CMAKE_BINARY_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw3/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hw3.dir/depend.make
@@ -73,23 +73,23 @@ CMakeFiles/hw3.dir/codegen:
 .PHONY : CMakeFiles/hw3.dir/codegen
 
 CMakeFiles/hw3.dir/hw3.c.o: CMakeFiles/hw3.dir/flags.make
-CMakeFiles/hw3.dir/hw3.c.o: /Users/zanderchierici/Desktop/ME433/hw3/hw3.c
+CMakeFiles/hw3.dir/hw3.c.o: /Users/zanderchierici/Documents/GitHub/ME433/hw3/hw3.c
 CMakeFiles/hw3.dir/hw3.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hw3.dir/hw3.c.o"
-	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/hw3.c.o -MF CMakeFiles/hw3.dir/hw3.c.o.d -o CMakeFiles/hw3.dir/hw3.c.o -c /Users/zanderchierici/Desktop/ME433/hw3/hw3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/hw3.dir/hw3.c.o"
+	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/hw3.c.o -MF CMakeFiles/hw3.dir/hw3.c.o.d -o CMakeFiles/hw3.dir/hw3.c.o -c /Users/zanderchierici/Documents/GitHub/ME433/hw3/hw3.c
 
 CMakeFiles/hw3.dir/hw3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hw3.dir/hw3.c.i"
-	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zanderchierici/Desktop/ME433/hw3/hw3.c > CMakeFiles/hw3.dir/hw3.c.i
+	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zanderchierici/Documents/GitHub/ME433/hw3/hw3.c > CMakeFiles/hw3.dir/hw3.c.i
 
 CMakeFiles/hw3.dir/hw3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hw3.dir/hw3.c.s"
-	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zanderchierici/Desktop/ME433/hw3/hw3.c -o CMakeFiles/hw3.dir/hw3.c.s
+	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zanderchierici/Documents/GitHub/ME433/hw3/hw3.c -o CMakeFiles/hw3.dir/hw3.c.s
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -103,7 +103,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -117,7 +117,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.i: cmake_force
@@ -131,7 +131,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_plat
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.i: cmake_force
@@ -145,7 +145,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -159,7 +159,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.i: cmake_force
@@ -173,7 +173,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -187,7 +187,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -201,7 +201,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -214,7 +214,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -228,7 +228,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.i: cmake_force
@@ -242,7 +242,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -256,7 +256,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.i: cmake_force
@@ -270,7 +270,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -284,7 +284,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.i: cmake_force
@@ -298,7 +298,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -312,7 +312,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -326,7 +326,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.i: cmake_force
@@ -340,7 +340,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.i: cmake_force
@@ -354,7 +354,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.i: cmake_force
@@ -368,7 +368,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -382,7 +382,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -396,7 +396,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -410,7 +410,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -424,7 +424,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -438,7 +438,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -452,7 +452,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -466,7 +466,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -480,7 +480,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -494,7 +494,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -508,7 +508,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -522,7 +522,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.i: cmake_force
@@ -536,7 +536,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -550,7 +550,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -564,7 +564,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -578,7 +578,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -591,7 +591,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -605,7 +605,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.i: cmake_force
@@ -619,7 +619,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -632,7 +632,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.o   -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_dcp.S.i: cmake_force
@@ -645,7 +645,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.o   -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_fma_dcp.S.i: cmake_force
@@ -658,7 +658,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.o   -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_sci_m33.S.i: cmake_force
@@ -671,7 +671,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.o   -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_conv_m33.S.i: cmake_force
@@ -685,7 +685,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -698,7 +698,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.o   -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_conv32_vfp.S.i: cmake_force
@@ -711,7 +711,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.o   -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_common_m33.S.i: cmake_force
@@ -724,7 +724,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.o   -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_sci_m33_vfp.S.i: cmake_force
@@ -738,7 +738,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -752,7 +752,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -766,7 +766,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -780,7 +780,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -794,7 +794,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -807,7 +807,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.o   -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -821,7 +821,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -835,7 +835,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -849,7 +849,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -863,7 +863,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -877,7 +877,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -891,7 +891,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -905,7 +905,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -919,7 +919,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -933,7 +933,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -947,7 +947,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/port
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -961,7 +961,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/port
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -975,7 +975,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/devi
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -989,7 +989,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/devi
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1003,7 +1003,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1017,7 +1017,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1031,7 +1031,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1045,7 +1045,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1059,7 +1059,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1073,7 +1073,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1087,7 +1087,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1101,7 +1101,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1115,7 +1115,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1129,7 +1129,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1143,7 +1143,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1157,7 +1157,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1171,7 +1171,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1185,7 +1185,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/comm
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1199,7 +1199,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/hw3.dir/flags.make
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/hw3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o"
 	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o -c /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -1384,14 +1384,14 @@ hw3.elf: CMakeFiles/hw3.dir/build.make
 hw3.elf: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 hw3.elf: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/rp2350/memmap_default.ld
 hw3.elf: CMakeFiles/hw3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable hw3.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable hw3.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hw3.dir/link.txt --verbose=$(VERBOSE)
-	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objdump -h /Users/zanderchierici/Desktop/ME433/hw3/build/hw3.elf > hw3.dis
-	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objdump -d /Users/zanderchierici/Desktop/ME433/hw3/build/hw3.elf >> hw3.dis
+	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objdump -h /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/hw3.elf > hw3.dis
+	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objdump -d /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/hw3.elf >> hw3.dis
 	_deps/picotool/picotool coprodis --quiet hw3.dis hw3.dis
-	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Oihex /Users/zanderchierici/Desktop/ME433/hw3/build/hw3.elf hw3.hex
-	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /Users/zanderchierici/Desktop/ME433/hw3/build/hw3.elf hw3.bin
-	_deps/picotool/picotool uf2 convert --quiet /Users/zanderchierici/Desktop/ME433/hw3/build/hw3.elf hw3.uf2 --family rp2350-arm-s --abs-block
+	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Oihex /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/hw3.elf hw3.hex
+	/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/hw3.elf hw3.bin
+	_deps/picotool/picotool uf2 convert --quiet /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/hw3.elf hw3.uf2 --family rp2350-arm-s --abs-block
 
 # Rule to build all files generated by this target.
 CMakeFiles/hw3.dir/build: hw3.elf
@@ -1402,6 +1402,6 @@ CMakeFiles/hw3.dir/clean:
 .PHONY : CMakeFiles/hw3.dir/clean
 
 CMakeFiles/hw3.dir/depend:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Desktop/ME433/hw3 /Users/zanderchierici/Desktop/ME433/hw3 /Users/zanderchierici/Desktop/ME433/hw3/build /Users/zanderchierici/Desktop/ME433/hw3/build /Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/hw3.dir/DependInfo.cmake "--color=$(COLOR)" hw3
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Documents/GitHub/ME433/hw3 /Users/zanderchierici/Documents/GitHub/ME433/hw3 /Users/zanderchierici/Documents/GitHub/ME433/hw3/build /Users/zanderchierici/Documents/GitHub/ME433/hw3/build /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/hw3.dir/DependInfo.cmake "--color=$(COLOR)" hw3
 .PHONY : CMakeFiles/hw3.dir/depend
 

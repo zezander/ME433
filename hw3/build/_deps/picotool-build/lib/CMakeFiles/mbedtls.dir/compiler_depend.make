@@ -135,7 +135,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -258,7 +258,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -368,7 +368,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1parse.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -502,7 +502,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/asn1write.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -637,7 +637,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/base64.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -772,7 +772,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_impl.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_internal.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -910,7 +910,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_impl.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_internal.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/bignum_core.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -1047,7 +1047,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_impl.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_internal.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/camellia.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -1179,7 +1179,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ccm.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -1289,7 +1289,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chacha20.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -1399,7 +1399,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/chachapoly.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -1509,7 +1509,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -1647,7 +1647,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_impl.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_internal.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -1783,7 +1783,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cipher_wrap.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/cmac.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -1893,7 +1893,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -2028,7 +2028,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_impl.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_internal.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr_drbg.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -2165,7 +2165,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ctr.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/des.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -2275,7 +2275,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/dhm.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -2385,7 +2385,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdh.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -2495,7 +2495,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecdsa.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -2633,7 +2633,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecjpake.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -2743,7 +2743,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -2882,7 +2882,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_internal_alt.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_invasive.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_curves.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -3021,7 +3021,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_impl.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/constant_time_internal.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ecp_invasive.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -3156,7 +3156,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -3292,7 +3292,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/entropy_poll.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/error.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -3446,7 +3446,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha512.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/gcm.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -3556,7 +3556,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hkdf.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -3680,7 +3680,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/hmac_drbg.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -3814,7 +3814,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -3954,7 +3954,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md_wrap.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/md5.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -4087,7 +4087,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/memory_buffer_alloc.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -4197,7 +4197,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_reader.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -4307,7 +4307,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/mps_trace.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -4417,7 +4417,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/nist_kw.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -4527,7 +4527,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/oid.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -4668,7 +4668,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/rsa.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -4791,7 +4791,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/padlock.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pem.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -4929,7 +4929,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -5068,7 +5068,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_internal.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_ecc.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -5205,7 +5205,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_internal.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -5376,7 +5376,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_internal.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_wrap.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs12.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -5544,7 +5544,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_util_internal.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkcs5.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -5715,7 +5715,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_util_internal.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkparse.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -5859,7 +5859,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_internal.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -6003,7 +6003,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pk_internal.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/pkwrite.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -6135,7 +6135,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/platform_util.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -6253,7 +6253,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/threading.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/poly1305.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -6386,7 +6386,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -6497,7 +6497,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_core_common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_aead.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -6607,7 +6607,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_cipher.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -6717,7 +6717,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_client.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -6879,7 +6879,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/psa/crypto_values.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_ecp.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -6989,7 +6989,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_hash.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -7099,7 +7099,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_mac.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -7209,7 +7209,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_rsa.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -7319,7 +7319,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_se.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -7429,7 +7429,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_slot_management.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -7539,7 +7539,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_crypto_storage.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -7649,7 +7649,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/psa_its_file.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -7759,7 +7759,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/ripemd160.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -7869,7 +7869,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -7979,7 +7979,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/rsa_alt_helpers.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -8089,7 +8089,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -8222,7 +8222,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha1.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha256.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -8355,7 +8355,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha256.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha512.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -8488,7 +8488,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha512.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/threading.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -8578,7 +8578,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/timing.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -8742,7 +8742,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/timing.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -8853,7 +8853,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/version.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c.o: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -8964,7 +8964,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/version.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/alignment.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
 
 
 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/version_features.c:
@@ -8998,8 +8998,6 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h:
 
@@ -9202,8 +9200,6 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aria.c:
 
 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/aesni.c:
-
-/Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
 
 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/psa/crypto_builtin_key_derivation.h:
 
@@ -9544,6 +9540,10 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h:
 
 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/threading.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h:
+
+/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
 
 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/platform_time.h:
 

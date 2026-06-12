@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/zanderchierici/.pico-sdk/sdk/2.2.0/tools/pioasm")
   file(MAKE_DIRECTORY "/Users/zanderchierici/.pico-sdk/sdk/2.2.0/tools/pioasm")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/zanderchierici/Desktop/ME433/hw3/build/pioasm"
-  "/Users/zanderchierici/Desktop/ME433/hw3/build/pioasm-install"
-  "/Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
-  "/Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
-  "/Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
-  "/Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pioasm"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pioasm-install"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

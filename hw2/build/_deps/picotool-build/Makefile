@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/CMakeFiles /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/CMakeFiles /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -238,32 +238,6 @@ mbedtls: cmake_check_build_system
 mbedtls/fast:
 	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/build
 .PHONY : mbedtls/fast
-
-#=============================================================================
-# Target rules for targets named model
-
-# Build rule for target.
-model: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 model
-.PHONY : model
-
-# fast build rule for target.
-model/fast:
-	$(MAKE) $(MAKESILENT) -f model/CMakeFiles/model.dir/build.make model/CMakeFiles/model.dir/build
-.PHONY : model/fast
-
-#=============================================================================
-# Target rules for targets named unreadable_rom_data
-
-# Build rule for target.
-unreadable_rom_data: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unreadable_rom_data
-.PHONY : unreadable_rom_data
-
-# fast build rule for target.
-unreadable_rom_data/fast:
-	$(MAKE) $(MAKESILENT) -f model/CMakeFiles/unreadable_rom_data.dir/build.make model/CMakeFiles/unreadable_rom_data.dir/build
-.PHONY : unreadable_rom_data/fast
 
 #=============================================================================
 # Target rules for targets named errors
@@ -477,13 +451,11 @@ help:
 	@echo "... embedded_data_no_libusb"
 	@echo "... enc_bootloader"
 	@echo "... enc_bootloader_mbedtls"
-	@echo "... unreadable_rom_data"
 	@echo "... bintool"
 	@echo "... elf"
 	@echo "... elf2uf2"
 	@echo "... errors"
 	@echo "... mbedtls"
-	@echo "... model"
 	@echo "... picotool"
 	@echo "... data_locs.o"
 	@echo "... data_locs.i"

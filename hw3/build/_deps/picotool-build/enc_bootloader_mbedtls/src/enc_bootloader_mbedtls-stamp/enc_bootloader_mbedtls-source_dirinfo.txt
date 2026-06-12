@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/enc_bootloader
+source_dir=/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/enc_bootloader
 work_dir=
 

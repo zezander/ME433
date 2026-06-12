@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\"
 
-C_INCLUDES = -I/Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include
+C_INCLUDES = -I/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include
 
 C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64
 

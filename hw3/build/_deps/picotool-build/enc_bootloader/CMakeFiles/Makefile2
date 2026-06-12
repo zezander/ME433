@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/enc_bootloader
+CMAKE_SOURCE_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/enc_bootloader
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader
+CMAKE_BINARY_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader
 
 #=============================================================================
 # Directory level rules for the build root directory

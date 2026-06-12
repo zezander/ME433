@@ -905,7 +905,7 @@ CMakeFiles/picotool.dir/data_locs.cpp.o: data_locs.cpp \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h
 
-CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/get_enc_bootloader.cpp \
+CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/get_enc_bootloader.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -1885,11 +1885,11 @@ CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /Users/zanderchierici/Desktop/
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
   enc_bootloader_elf.h \
   enc_bootloader_mbedtls_elf.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/data_locs.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/get_enc_bootloader.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami++.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/data_locs.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/get_enc_bootloader.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami++.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -2872,10 +2872,10 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /Users/zanderchierici/Des
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami++.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami.c
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami.c
 
-CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami.c \
+CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -3000,9 +3000,9 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /Users/zanderchierici/Desktop
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami.h
 
-CMakeFiles/picotool.dir/main.cpp.o: /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/main.cpp \
+CMakeFiles/picotool.dir/main.cpp.o: /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -4072,53 +4072,55 @@ CMakeFiles/picotool.dir/main.cpp.o: /Users/zanderchierici/Desktop/ME433/HW2/buil
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/aes.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/bignum.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/ctr_drbg.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/ecdsa.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/ecp.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/entropy.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/md.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/pk.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/platform_time.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/platform_util.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/sha256.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/sha512.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/version.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picobin_headers/include/boot/picobin.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picoboot_headers/include/boot/picoboot.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_uf2_headers/include/boot/uf2.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/pico_binary_info/include/pico/binary_info.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/host/pico_platform/include/pico/platform.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  model/rp2350_a2_rom_end.h \
-  model/rp2350_a3_rom_end.h \
-  model/rp2350_a4_rom_end.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/bintool/bintool.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/bintool/metadata.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/cli.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/clipp/clipp.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf/elf.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf/elf_file.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/errors/errors.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/get_enc_bootloader.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/model/addresses.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/model/model.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/otp.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/aes.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/bignum.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/build_info.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/check_config.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/ecdsa.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/ecp.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/entropy.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/md.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/pk.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/platform_time.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/platform_util.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha256.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/version.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_picobin_headers/include/boot/picobin.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_uf2_headers/include/boot/uf2.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/host/pico_platform/include/pico/platform.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/bintool/bintool.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/bintool/metadata.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/cli.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/clipp/clipp.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf/addresses.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf/elf.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf/elf_file.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/errors/errors.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/get_enc_bootloader.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/otp.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h
 
-CMakeFiles/picotool.dir/no_otp.cpp.o: /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/no_otp.cpp \
+CMakeFiles/picotool.dir/no_otp.cpp.o: /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/no_otp.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -5096,59 +5098,57 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /Users/zanderchierici/Desktop/ME433/HW2/bu
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/otp.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/otp.h
 
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/no_otp.cpp:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/no_otp.cpp:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/model/addresses.h:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/otp.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf/elf_file.h:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/cli.h:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
 
-model/rp2350_a4_rom_end.h:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf/elf.h:
 
-model/rp2350_a3_rom_end.h:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/clipp/clipp.h:
 
-model/rp2350_a2_rom_end.h:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/cli.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/bintool/bintool.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/pico_binary_info/include/pico/binary_info/code.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/pico_binary_info/include/pico/binary_info.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/code.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picobin_headers/include/boot/picobin.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_uf2_headers/include/boot/uf2.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/version.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/platform_util.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/platform_time.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha256.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/pk.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/platform_util.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/md.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/md.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/entropy.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/entropy.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/ecdsa.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/ctr_drbg.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/ctr_drbg.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/bignum.h:
-
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/aes.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/check_config.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h:
 
@@ -5180,11 +5180,15 @@ model/rp2350_a2_rom_end.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/random:
 
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_ssl.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_socklen_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map:
+
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/ecp.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cinttypes:
 
@@ -5207,6 +5211,8 @@ model/rp2350_a2_rom_end.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_seed_sequence.h:
+
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/independent_bits_engine.h:
 
@@ -5250,17 +5256,17 @@ model/rp2350_a2_rom_end.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_param.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami.h:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/main.cpp:
+
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami.c:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami.c:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h:
 
@@ -5294,6 +5300,8 @@ model/rp2350_a2_rom_end.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/OSByteOrder.h:
 
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dlfcn.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h:
@@ -5302,11 +5310,15 @@ model/rp2350_a2_rom_end.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/architecture/byte_order.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami++.h:
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/bignum.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/data_locs.h:
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami++.h:
+
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/get_enc_bootloader.h:
+
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/data_locs.h:
 
 enc_bootloader_elf.h:
 
@@ -5384,6 +5396,8 @@ enc_bootloader_elf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
 
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/build_info.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert:
@@ -5393,6 +5407,8 @@ enc_bootloader_elf.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_floating_point.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/chars_format.h:
+
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h:
 
@@ -5482,8 +5498,6 @@ enc_bootloader_elf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/main.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
@@ -5505,6 +5519,8 @@ enc_bootloader_elf.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval32.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h:
+
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf/addresses.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h:
 
@@ -5532,8 +5548,6 @@ enc_bootloader_elf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_port_t.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/sha256.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h:
@@ -5546,8 +5560,6 @@ enc_bootloader_elf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/pico_binary_info/include/pico/binary_info/structure.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_set.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h:
@@ -5555,6 +5567,8 @@ enc_bootloader_elf.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h:
+
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/platform_time.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
 
@@ -5617,6 +5631,8 @@ enc_bootloader_elf.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_shuffle.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_types.h:
+
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h:
 
@@ -5788,6 +5804,8 @@ enc_bootloader_elf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unsigned_integer.h:
 
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/pk.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_nth_element.h:
@@ -5805,8 +5823,6 @@ enc_bootloader_elf.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copy_constructible.h:
-
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/terminate.h:
 
@@ -5938,8 +5954,6 @@ enc_bootloader_elf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/extent.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/otp.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/csignal:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/enable_if.h:
@@ -6022,8 +6036,6 @@ enc_bootloader_elf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_indices.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_default_constructible.h:
@@ -6082,8 +6094,6 @@ enc_bootloader_elf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/size.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_assignable.h:
@@ -6136,6 +6146,8 @@ enc_bootloader_elf.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h:
 
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_picobin_headers/include/boot/picobin.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h:
@@ -6147,6 +6159,8 @@ enc_bootloader_mbedtls_elf.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h:
+
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/host/pico_platform/include/pico/platform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_swap_ranges.h:
 
@@ -6173,8 +6187,6 @@ enc_bootloader_mbedtls_elf.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
-
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
 
@@ -6236,6 +6248,8 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/sortable.h:
 
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/partial_order.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:
@@ -6259,6 +6273,8 @@ data_locs.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
+
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf/elf_file.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_move.h:
 
@@ -6332,11 +6348,7 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/subrange.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf/elf.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_union.h:
-
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/unicode.h:
 
@@ -6366,11 +6378,7 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/istream.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/get_enc_bootloader.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h:
-
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/bintool/metadata.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h:
 
@@ -6424,8 +6432,6 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/model/model.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_move.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits:
@@ -6478,8 +6484,6 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/sha512.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/concepts.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
@@ -6500,13 +6504,9 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exchange.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/get_enc_bootloader.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h:
-
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/bintool/bintool.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h:
 
@@ -6582,6 +6582,8 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
 
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/get_enc_bootloader.cpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/contention_t.h:
@@ -6623,8 +6625,6 @@ data_locs.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex:
-
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/host/pico_platform/include/pico/platform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
 
@@ -6748,6 +6748,8 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_fun_result.h:
 
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/structure.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_init.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
@@ -6759,6 +6761,8 @@ data_locs.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_const.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
+
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_rotate.h:
 
@@ -6787,6 +6791,8 @@ data_locs.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
+
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/swappable.h:
 
@@ -6831,8 +6837,6 @@ data_locs.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_partition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
-
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/errors/errors.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h:
 
@@ -6963,8 +6967,6 @@ data_locs.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_find_first_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
-
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_uf2_headers/include/boot/uf2.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/destruct_n.h:
 
@@ -7102,6 +7104,8 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h:
 
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/aes.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backend.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h:
@@ -7113,6 +7117,8 @@ data_locs.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h:
+
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/bintool/metadata.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h:
 
@@ -7232,8 +7238,6 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h:
@@ -7258,8 +7262,6 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/maybe_const.h:
 
-/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/clipp/clipp.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
@@ -7267,6 +7269,8 @@ data_locs.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_for_each.h:
+
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/version.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
 
@@ -7328,6 +7332,8 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h:
 
+/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/errors/errors.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_ends_with.h:
@@ -7370,13 +7376,13 @@ data_locs.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_fwd.h:
 
-/Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/ecp.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
+
+/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/ecdsa.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
 

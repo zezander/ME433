@@ -29,7 +29,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/build_info.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \

@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src
+source_dir=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src
 work_dir=
 

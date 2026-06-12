@@ -3,17 +3,17 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_DEFINES = -DHAS_MBEDTLS=1 -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\" -DPICO_BUILD=1 -DPICO_NO_HARDWARE=1 -DPICO_ON_DEVICE=0
+C_DEFINES = -DHAS_MBEDTLS=1 -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\" -DNO_PICO_PLATFORM=1
 
-C_INCLUDES = -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/bintool -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/include -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/model -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/model -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/errors -isystem /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_uf2_headers/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picoboot_headers/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/host/pico_platform/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picobin_headers/include
+C_INCLUDES = -I/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/bintool -I/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/include -I/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf -I/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/errors -isystem /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_picobin_headers/include
 
 C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64
 
 C_FLAGS = -O3 -DNDEBUG -arch arm64
 
-CXX_DEFINES = -DHAS_MBEDTLS=1 -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\" -DPICO_BUILD=1 -DPICO_NO_HARDWARE=1 -DPICO_ON_DEVICE=0
+CXX_DEFINES = -DHAS_MBEDTLS=1 -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\" -DNO_PICO_PLATFORM=1
 
-CXX_INCLUDES = -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/bintool -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/include -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/model -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/model -I/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/errors -isystem /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_uf2_headers/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picoboot_headers/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/host/pico_platform/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picobin_headers/include
+CXX_INCLUDES = -I/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/bintool -I/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/include -I/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf -I/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/errors -isystem /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include -isystem /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_picobin_headers/include
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++14 -arch arm64
 

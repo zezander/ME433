@@ -3759,7 +3759,7 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h
 
-CMakeFiles/hw3.dir/hw3.c.o: /Users/zanderchierici/Desktop/ME433/hw3/hw3.c \
+CMakeFiles/hw3.dir/hw3.c.o: /Users/zanderchierici/Documents/GitHub/ME433/hw3/hw3.c \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico2.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -3835,8 +3835,6 @@ CMakeFiles/hw3.dir/hw3.c.o: /Users/zanderchierici/Desktop/ME433/hw3/hw3.c \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h
 
-
-/Users/zanderchierici/Desktop/ME433/hw3/hw3.c:
 
 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c:
 
@@ -4065,6 +4063,8 @@ CMakeFiles/hw3.dir/hw3.c.o: /Users/zanderchierici/Desktop/ME433/hw3/hw3.c \
 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c:
 
 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/include/hardware/irq.h:
+
+/Users/zanderchierici/Documents/GitHub/ME433/hw3/hw3.c:
 
 /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c:
 

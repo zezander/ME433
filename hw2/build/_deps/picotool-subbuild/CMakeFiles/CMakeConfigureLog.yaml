@@ -20,8 +20,6 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -35,10 +33,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
-      - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
       - "/usr/local/bin/uname"
@@ -46,8 +41,6 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -61,9 +54,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pkg/env/active/bin"
         - "/opt/pmk/env/global/bin"
-        - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -91,8 +81,6 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
-      - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -106,10 +94,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/install_name_tool"
-      - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/install_name_tool"
       - "/opt/homebrew/bin/install_name_tool"
       - "/opt/homebrew/sbin/install_name_tool"
       - "/usr/local/bin/install_name_tool"
@@ -117,8 +102,6 @@ events:
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
-        - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -132,8 +115,5 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/opt/pkg/env/active/bin"
         - "/opt/pmk/env/global/bin"
-        - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
 ...

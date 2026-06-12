@@ -40,8 +40,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c
@@ -119,8 +119,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_device.c
@@ -161,8 +161,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/dfu/dfu_rt_device.c
@@ -203,8 +203,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c
@@ -245,8 +245,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/midi/midi_device.c
@@ -287,8 +287,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/msc/msc_device.c
@@ -329,8 +329,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ecm_rndis_device.c
@@ -371,8 +371,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/net/ncm_device.c
@@ -413,8 +413,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
@@ -455,8 +455,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/vendor/vendor_device.c
@@ -533,8 +533,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/video/video_device.c
@@ -575,8 +575,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/clas
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c
@@ -649,8 +649,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/comm
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c
@@ -731,8 +731,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/devi
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c
@@ -813,8 +813,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/devi
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
@@ -901,8 +901,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/port
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
@@ -981,8 +981,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/port
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c
@@ -1062,8 +1062,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c
@@ -1103,8 +1103,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/hardware_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c
@@ -1150,8 +1150,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c
@@ -1196,8 +1196,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c
@@ -1245,8 +1245,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync/sem.c
@@ -1292,8 +1292,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_sync
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c
@@ -1366,8 +1366,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time/timeout_helper.c
@@ -1410,8 +1410,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_time
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/datetime.c
@@ -1466,8 +1466,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/pheap.c
@@ -1512,8 +1512,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util/queue.c
@@ -1570,8 +1570,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_util
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/platform.c
@@ -1609,8 +1609,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_plat
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_boot_lock/boot_lock.c
@@ -1654,8 +1654,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c
@@ -1713,8 +1713,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.c
@@ -1749,8 +1749,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c
@@ -1812,8 +1812,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c
@@ -1867,8 +1867,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c
@@ -1921,8 +1921,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c
@@ -1977,8 +1977,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c
@@ -2024,8 +2024,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c
@@ -2065,8 +2065,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
@@ -2109,8 +2109,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c
@@ -2150,8 +2150,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c
@@ -2201,8 +2201,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/uart.c
@@ -2253,8 +2253,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_vreg/vreg.c
@@ -2294,8 +2294,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_watchdog/watchdog.c
@@ -2361,8 +2361,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xip_cache/xip_cache.c
@@ -2404,8 +2404,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c
@@ -2448,8 +2448,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c
@@ -2500,8 +2500,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c
@@ -2560,8 +2560,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom_lock.c
@@ -2608,8 +2608,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c
@@ -2682,8 +2682,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp
@@ -2731,8 +2731,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_compiler.c
@@ -2768,8 +2768,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c
@@ -2810,8 +2810,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
@@ -2845,8 +2845,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_flash/flash.c
@@ -2891,8 +2891,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_math.c
@@ -2934,8 +2934,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c
@@ -2977,8 +2977,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_common/common.c
@@ -3016,8 +3016,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c
@@ -3072,8 +3072,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c
@@ -3116,8 +3116,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c
@@ -3153,8 +3153,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c
@@ -3232,8 +3232,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
@@ -3291,8 +3291,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
@@ -3327,8 +3327,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
@@ -3367,8 +3367,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c
@@ -3429,8 +3429,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/reset_interface.c
@@ -3523,8 +3523,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb.c
@@ -3615,8 +3615,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
@@ -3697,8 +3697,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdlib/stdlib.c
@@ -3769,8 +3769,8 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c
@@ -3827,11 +3827,11 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 
 CMakeFiles/hw3.dir/hw3.c.o
- /Users/zanderchierici/Desktop/ME433/hw3/hw3.c
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/hw3.c
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico2.h
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico.h
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/assert.h
@@ -3904,6 +3904,6 @@ CMakeFiles/hw3.dir/hw3.c.o
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h
 

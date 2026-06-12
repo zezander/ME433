@@ -1,5 +1,5 @@
 elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -936,7 +936,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -985,22 +985,12 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_uf2_headers/include/boot/uf2.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_uf2_headers/include/boot/uf2.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf/elf_file.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf/elf_file.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/elf/elf.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf/elf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/model/addresses.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/model/model.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picoboot_headers/include/boot/picoboot.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/host/pico_platform/include/pico/platform.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/host/pico_platform/include/hardware/platform_defs.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/model/rp2350_a2_rom_end.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/model/rp2350_a3_rom_end.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/model/rp2350_a4_rom_end.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/errors/errors.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/elf/addresses.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/errors/errors.h

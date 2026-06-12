@@ -35,7 +35,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
@@ -63,7 +62,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -106,7 +104,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/install_name_tool"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/install_name_tool"
@@ -134,6 +131,5 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
 ...

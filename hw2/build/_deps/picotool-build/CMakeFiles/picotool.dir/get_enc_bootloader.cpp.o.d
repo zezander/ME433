@@ -1,5 +1,5 @@
 CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/get_enc_bootloader.cpp \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/get_enc_bootloader.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -977,8 +977,8 @@ CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/get_enc_bootloader.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_elf.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_mbedtls_elf.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/data_locs.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami++.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/get_enc_bootloader.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_elf.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_mbedtls_elf.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/data_locs.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami++.h

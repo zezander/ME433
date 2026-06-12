@@ -1,5 +1,5 @@
 elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -936,7 +936,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -988,9 +988,9 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_uf2_headers/include/boot/uf2.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf/elf_file.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf/elf_file.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf/elf.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf/elf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf/addresses.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/errors/errors.h
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf/addresses.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/errors/errors.h

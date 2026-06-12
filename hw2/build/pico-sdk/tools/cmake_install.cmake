@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zanderchierici/.pico-sdk/sdk/2.1.1/tools
+# Install script for directory: /Users/zanderchierici/.pico-sdk/sdk/2.2.0/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/zanderchierici/Desktop/ME433/HW2/build/pico-sdk/tools/install_local_manifest.txt"
+  file(WRITE "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/pico-sdk/tools/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

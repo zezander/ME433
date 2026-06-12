@@ -1,6 +1,6 @@
 CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami++.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -955,7 +955,7 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/whereami/whereami.c \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/whereami/whereami.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach-o/dyld.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \

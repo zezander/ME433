@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build
 
 # Utility rule file for enc_bootloader_mbedtls.
 
@@ -73,39 +73,39 @@ CMakeFiles/enc_bootloader_mbedtls-complete: enc_bootloader_mbedtls/src/enc_bootl
 CMakeFiles/enc_bootloader_mbedtls-complete: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-configure
 CMakeFiles/enc_bootloader_mbedtls-complete: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-build
 CMakeFiles/enc_bootloader_mbedtls-complete: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-install
-	/opt/homebrew/bin/cmake -E make_directory /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/CMakeFiles
-	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/CMakeFiles/enc_bootloader_mbedtls-complete
-	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-done
+	/opt/homebrew/bin/cmake -E make_directory /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/CMakeFiles
+	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/CMakeFiles/enc_bootloader_mbedtls-complete
+	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-done
 
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-build: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-configure
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls && $(MAKE)
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls && $(MAKE)
 
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-configure: enc_bootloader_mbedtls/tmp/enc_bootloader_mbedtls-cfgcmd.txt
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-configure: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-patch
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls && /opt/homebrew/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make -DPICO_SDK_PATH:FILEPATH=/Users/zanderchierici/.pico-sdk/sdk/2.2.0 -DUSE_PRECOMPILED:BOOL=true -DUSE_MBEDTLS=1 -DPICO_DEBUG_INFO_IN_RELEASE=OFF "-GUnix Makefiles" -S /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/enc_bootloader -B /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-configure
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls && /opt/homebrew/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make -DPICO_SDK_PATH:FILEPATH=/Users/zanderchierici/.pico-sdk/sdk/2.2.0 -DUSE_PRECOMPILED:BOOL=true -DUSE_MBEDTLS=1 -DPICO_DEBUG_INFO_IN_RELEASE=OFF "-GUnix Makefiles" -S /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/enc_bootloader -B /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls && /opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-configure
 
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-download: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-source_dirinfo.txt
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-download: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-mkdir
 	/opt/homebrew/bin/cmake -E echo_append
-	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-download
+	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-download
 
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-install: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-build
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls && /opt/homebrew/bin/cmake -E echo_append
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls && /opt/homebrew/bin/cmake -E echo_append
 
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-mkdir:
-	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/tmp/enc_bootloader_mbedtls-mkdirs.cmake
-	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-mkdir
+	/opt/homebrew/bin/cmake -Dcfgdir= -P /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/tmp/enc_bootloader_mbedtls-mkdirs.cmake
+	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-mkdir
 
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-patch: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-patch-info.txt
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-patch: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-update
 	/opt/homebrew/bin/cmake -E echo_append
-	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-patch
+	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-patch
 
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-update: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-update-info.txt
 enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-update: enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-download
 	/opt/homebrew/bin/cmake -E echo_append
-	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-update
+	/opt/homebrew/bin/cmake -E touch /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/enc_bootloader_mbedtls-update
 
 CMakeFiles/enc_bootloader_mbedtls.dir/codegen:
 .PHONY : CMakeFiles/enc_bootloader_mbedtls.dir/codegen
@@ -131,6 +131,6 @@ CMakeFiles/enc_bootloader_mbedtls.dir/clean:
 .PHONY : CMakeFiles/enc_bootloader_mbedtls.dir/clean
 
 CMakeFiles/enc_bootloader_mbedtls.dir/depend:
-	cd /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-build/CMakeFiles/enc_bootloader_mbedtls.dir/DependInfo.cmake "--color=$(COLOR)" enc_bootloader_mbedtls
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-build/CMakeFiles/enc_bootloader_mbedtls.dir/DependInfo.cmake "--color=$(COLOR)" enc_bootloader_mbedtls
 .PHONY : CMakeFiles/enc_bootloader_mbedtls.dir/depend
 

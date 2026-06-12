@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/enc_bootloader")
-  file(MAKE_DIRECTORY "/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/enc_bootloader")
+if(NOT EXISTS "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/enc_bootloader")
+  file(MAKE_DIRECTORY "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/enc_bootloader")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_mbedtls"
-  "/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_mbedtls"
-  "/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_mbedtls/tmp"
-  "/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp"
-  "/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_mbedtls/src"
-  "/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_mbedtls"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_mbedtls"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_mbedtls/tmp"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_mbedtls/src"
+  "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_mbedtls/src/enc_bootloader_mbedtls-stamp${cfgdir}") # cfgdir has leading slash
 endif()

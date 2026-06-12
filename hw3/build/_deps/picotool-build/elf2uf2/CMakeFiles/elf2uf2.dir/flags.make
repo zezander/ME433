@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf2uf2 -I/Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/elf -I/Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/errors -isystem /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_uf2_headers/include
+CXX_INCLUDES = -I/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf2uf2 -I/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/elf -I/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/errors -isystem /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/boot_uf2_headers/include
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++14 -arch arm64
 

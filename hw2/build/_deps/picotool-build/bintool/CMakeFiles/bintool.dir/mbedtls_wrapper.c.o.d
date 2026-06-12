@@ -1,6 +1,6 @@
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
@@ -75,14 +75,20 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/sha256.h \
-  /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha256.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/build_info.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/check_config.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_header_macro.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_ptrdiff_t.h \
@@ -92,9 +98,19 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_null.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_offsetof.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/ecdsa.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/ecp.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/bignum.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/ecdsa.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/ecp.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/platform_util.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/platform_time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/inttypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/bignum.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
@@ -106,20 +122,12 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_common.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/md.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/platform_util.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/platform_time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/ctr_drbg.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/aes.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/entropy.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/sha512.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/pk.h \
-  /Users/zanderchierici/.pico-sdk/sdk/2.1.1/lib/mbedtls/include/mbedtls/version.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/md.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/aes.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/entropy.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/pk.h \
+  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/version.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h \

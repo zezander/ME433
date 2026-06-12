@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src
+CMAKE_SOURCE_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build
+CMAKE_BINARY_DIR = /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build
 
 # Utility rule file for embedded_data_no_libusb.
 
@@ -67,10 +67,10 @@ CMakeFiles/embedded_data_no_libusb: enc_bootloader_elf.h
 CMakeFiles/embedded_data_no_libusb: enc_bootloader_mbedtls_elf.h
 
 enc_bootloader_elf.h:
-	/opt/homebrew/bin/cmake -D BINARY_FILE=/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader/enc_bootloader.elf -D OUTPUT_NAME=enc_bootloader_elf -P /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/cmake/binh.cmake
+	/opt/homebrew/bin/cmake -D BINARY_FILE=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader/enc_bootloader.elf -D OUTPUT_NAME=enc_bootloader_elf -P /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/cmake/binh.cmake
 
 enc_bootloader_mbedtls_elf.h:
-	/opt/homebrew/bin/cmake -D BINARY_FILE=/Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/enc_bootloader_mbedtls/enc_bootloader.elf -D OUTPUT_NAME=enc_bootloader_mbedtls_elf -P /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src/cmake/binh.cmake
+	/opt/homebrew/bin/cmake -D BINARY_FILE=/Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/enc_bootloader_mbedtls/enc_bootloader.elf -D OUTPUT_NAME=enc_bootloader_mbedtls_elf -P /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src/cmake/binh.cmake
 
 CMakeFiles/embedded_data_no_libusb.dir/codegen:
 .PHONY : CMakeFiles/embedded_data_no_libusb.dir/codegen
@@ -90,6 +90,6 @@ CMakeFiles/embedded_data_no_libusb.dir/clean:
 .PHONY : CMakeFiles/embedded_data_no_libusb.dir/clean
 
 CMakeFiles/embedded_data_no_libusb.dir/depend:
-	cd /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-src /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build /Users/zanderchierici/Desktop/ME433/HW2/build/_deps/picotool-build/CMakeFiles/embedded_data_no_libusb.dir/DependInfo.cmake "--color=$(COLOR)" embedded_data_no_libusb
+	cd /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-src /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build /Users/zanderchierici/Documents/GitHub/ME433/hw2/build/_deps/picotool-build/CMakeFiles/embedded_data_no_libusb.dir/DependInfo.cmake "--color=$(COLOR)" embedded_data_no_libusb
 .PHONY : CMakeFiles/embedded_data_no_libusb.dir/depend
 

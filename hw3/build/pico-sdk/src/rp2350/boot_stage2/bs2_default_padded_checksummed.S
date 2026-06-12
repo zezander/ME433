@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /Users/zanderchierici/Desktop/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

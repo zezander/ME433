@@ -35,7 +35,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
@@ -63,7 +62,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -109,7 +107,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -155,7 +152,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -201,7 +197,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -247,7 +242,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -292,7 +286,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
@@ -309,7 +302,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
       - "/opt/pkg/env/active/bin/gmake"
       - "/opt/pmk/env/global/bin/gmake"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/gmake"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/make"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/make"
       - "/opt/homebrew/bin/make"
@@ -336,7 +328,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -383,7 +374,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "message-v1"
@@ -460,7 +450,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "message-v1"
@@ -482,7 +471,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/4.3.3/CompilerIdC/CMakeCCompilerId.o
+        /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/4.3.3/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "find-v1"
@@ -521,7 +510,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-ar"
     search_context:
       ENV{PATH}:
@@ -542,7 +530,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -581,7 +568,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-ranlib"
     search_context:
       ENV{PATH}:
@@ -602,7 +588,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -641,7 +626,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-strip"
     search_context:
       ENV{PATH}:
@@ -662,7 +646,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -701,7 +684,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-ld"
     search_context:
       ENV{PATH}:
@@ -722,7 +704,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -761,7 +742,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-nm"
     search_context:
       ENV{PATH}:
@@ -782,7 +762,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -821,7 +800,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-readelf"
     search_context:
       ENV{PATH}:
@@ -842,7 +820,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -881,7 +858,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-dlltool"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool"
@@ -899,7 +875,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-dlltool"
       - "/opt/pkg/env/active/bin/arm-none-eabi-dlltool"
       - "/opt/pmk/env/global/bin/arm-none-eabi-dlltool"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-dlltool"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/dlltool"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
@@ -916,7 +891,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
       - "/opt/pkg/env/active/bin/dlltool"
       - "/opt/pmk/env/global/bin/dlltool"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/dlltool"
     found: false
     search_context:
       ENV{PATH}:
@@ -937,7 +911,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -976,7 +949,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-addr2line"
     search_context:
       ENV{PATH}:
@@ -997,7 +969,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -1036,7 +1007,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-tapi"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi"
@@ -1054,7 +1024,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-tapi"
       - "/opt/pkg/env/active/bin/arm-none-eabi-tapi"
       - "/opt/pmk/env/global/bin/arm-none-eabi-tapi"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-tapi"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/tapi"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
@@ -1071,7 +1040,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
       - "/opt/pkg/env/active/bin/tapi"
       - "/opt/pmk/env/global/bin/tapi"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -1092,7 +1060,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -1133,7 +1100,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2"
@@ -1151,7 +1117,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14.2"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-14.2"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-14.2"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.2"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14"
@@ -1168,7 +1133,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-14"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-14"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar14"
@@ -1185,7 +1149,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar14"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar14"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar14"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar14"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar"
     search_context:
       ENV{PATH}:
@@ -1206,7 +1169,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -1247,7 +1209,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2"
@@ -1265,7 +1226,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14"
@@ -1282,7 +1242,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-14"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib14"
@@ -1299,7 +1258,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib14"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib14"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib14"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib14"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -1320,7 +1278,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -1367,7 +1324,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "message-v1"
@@ -1444,7 +1400,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "message-v1"
@@ -1466,7 +1421,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        /Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/4.3.3/CompilerIdCXX/CMakeCXXCompilerId.o
+        /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/4.3.3/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "find-v1"
@@ -1507,7 +1462,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar-14.2"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2"
@@ -1525,7 +1479,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14.2"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-14.2"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-14.2"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.2"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar-14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-14"
@@ -1542,7 +1495,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-14"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-14"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-14"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar14"
@@ -1559,7 +1511,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar14"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar14"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar14"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar14"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar"
     search_context:
       ENV{PATH}:
@@ -1580,7 +1531,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -1621,7 +1571,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2"
@@ -1639,7 +1588,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.2"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib-14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-14"
@@ -1656,7 +1604,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-14"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-14"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib14"
@@ -1673,7 +1620,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib14"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib14"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib14"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib14"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -1694,7 +1640,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "message-v1"
@@ -1748,7 +1693,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar-"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
@@ -1766,7 +1710,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar-"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-"
@@ -1783,7 +1726,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ar-"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ar-"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ar-"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ar"
     search_context:
       ENV{PATH}:
@@ -1804,7 +1746,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "find-v1"
@@ -1845,7 +1786,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
@@ -1863,7 +1803,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-"
       - "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib-"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
       - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-"
@@ -1880,7 +1819,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/arm-none-eabi-gcc-ranlib-"
       - "/opt/pkg/env/active/bin/arm-none-eabi-gcc-ranlib-"
       - "/opt/pmk/env/global/bin/arm-none-eabi-gcc-ranlib-"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-"
     found: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -1901,7 +1839,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_FIND_ROOT_PATH: "/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1"
   -
     kind: "try_compile-v1"
@@ -1912,8 +1849,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-aMd9Kz"
-      binary: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-aMd9Kz"
+      source: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-xvWABM"
+      binary: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-xvWABM"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse"
@@ -1925,12 +1862,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-aMd9Kz'
+        Change Dir: '/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-xvWABM'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b30aa/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b30aa.dir/build.make CMakeFiles/cmTC_b30aa.dir/build
-        Building C object CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o
-        /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -std=gnu11   -v -o CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_44ef8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_44ef8.dir/build.make CMakeFiles/cmTC_44ef8.dir/build
+        Building C object CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o
+        /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -std=gnu11   -v -o CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -1938,8 +1875,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_b30aa.dir/'
-         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b30aa.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu11 -version -o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccBi2I1x.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_44ef8.dir/'
+         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_44ef8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu11 -version -o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccIJQzdh.s
         GNU C11 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -1956,14 +1893,14 @@ events:
          /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 37d23b2e3347d18c1231e07805cbe085
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_b30aa.dir/'
-         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccBi2I1x.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_44ef8.dir/'
+         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccIJQzdh.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_b30aa.elf
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b30aa.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_44ef8.elf
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44ef8.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc
         COLLECT_LTO_WRAPPER=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper
@@ -1974,11 +1911,11 @@ events:
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
         COMPILER_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_b30aa.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_b30aa.elf.'
-         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//cc9nzEqB.res --sysroot=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -X -o cmTC_b30aa.elf -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_44ef8.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_44ef8.elf.'
+         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccH5AAlg.res --sysroot=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -X -o cmTC_44ef8.elf -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o
         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_b30aa.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_b30aa.elf.'
-        /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o -o cmTC_b30aa.elf
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_44ef8.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_44ef8.elf.'
+        /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o -o cmTC_44ef8.elf
         
       exitCode: 0
   -
@@ -2011,12 +1948,12 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-aMd9Kz']
+        ignore line: [Change Dir: '/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-xvWABM']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b30aa/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b30aa.dir/build.make CMakeFiles/cmTC_b30aa.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -std=gnu11   -v -o CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_44ef8/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_44ef8.dir/build.make CMakeFiles/cmTC_44ef8.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -std=gnu11   -v -o CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -2024,8 +1961,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_b30aa.dir/']
-        ignore line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b30aa.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu11 -version -o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccBi2I1x.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_44ef8.dir/']
+        ignore line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_44ef8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu11 -version -o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccIJQzdh.s]
         ignore line: [GNU C11 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -2042,14 +1979,14 @@ events:
         ignore line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 37d23b2e3347d18c1231e07805cbe085]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_b30aa.dir/']
-        ignore line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccBi2I1x.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_44ef8.dir/']
+        ignore line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccIJQzdh.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_b30aa.elf]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b30aa.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_44ef8.elf]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44ef8.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper]
@@ -2060,17 +1997,17 @@ events:
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
         ignore line: [COMPILER_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_b30aa.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_b30aa.elf.']
-        link line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//cc9nzEqB.res --sysroot=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -X -o cmTC_b30aa.elf -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_44ef8.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_44ef8.elf.']
+        link line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccH5AAlg.res --sysroot=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -X -o cmTC_44ef8.elf -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o]
           arg [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//cc9nzEqB.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccH5AAlg.res] ==> ignore
           arg [--sysroot=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b30aa.elf] ==> ignore
+          arg [cmTC_44ef8.elf] ==> ignore
           arg [-L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp] ==> dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp]
           arg [-L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
           arg [-L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
@@ -2079,11 +2016,11 @@ events:
           arg [-L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib] ==> dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib]
           arg [-L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib] ==> dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o] ==> ignore
         ignore line: [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_b30aa.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_b30aa.elf.']
-        ignore line: [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_b30aa.dir/CMakeCCompilerABI.c.o -o cmTC_b30aa.elf]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_44ef8.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_44ef8.elf.']
+        ignore line: [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_44ef8.dir/CMakeCCompilerABI.c.o -o cmTC_44ef8.elf]
         ignore line: []
         ignore line: []
         collapse library dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp] ==> [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp]
@@ -2108,8 +2045,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-Xq1kpf"
-      binary: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-Xq1kpf"
+      source: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-epl461"
+      binary: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-epl461"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
@@ -2122,12 +2059,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-Xq1kpf'
+        Change Dir: '/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-epl461'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_123c6/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_123c6.dir/build.make CMakeFiles/cmTC_123c6.dir/build
-        Building CXX object CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o
-        /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -std=gnu++17   -v -o CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d31fb/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d31fb.dir/build.make CMakeFiles/cmTC_d31fb.dir/build
+        Building CXX object CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o
+        /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -std=gnu++17   -v -o CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -2135,8 +2072,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_123c6.dir/'
-         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_123c6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu++17 -version -o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccZcgtw7.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_d31fb.dir/'
+         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d31fb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu++17 -version -o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//cc4tr6g3.s
         GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -2159,14 +2096,14 @@ events:
          /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 27b9f5562618372de894011fc251f42d
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_123c6.dir/'
-         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccZcgtw7.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_d31fb.dir/'
+         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//cc4tr6g3.s
         GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119
         COMPILER_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_123c6.elf
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_123c6.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_d31fb.elf
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d31fb.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++
         COLLECT_LTO_WRAPPER=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper
@@ -2177,11 +2114,11 @@ events:
         gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 
         COMPILER_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_123c6.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_123c6.elf.'
-         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//cc9gvw0x.res --sysroot=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -X -o cmTC_123c6.elf -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_d31fb.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_d31fb.elf.'
+         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccOM73Av.res --sysroot=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -X -o cmTC_d31fb.elf -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o
         /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_123c6.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_123c6.elf.'
-        /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_123c6.elf
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_d31fb.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_d31fb.elf.'
+        /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d31fb.elf
         
       exitCode: 0
   -
@@ -2220,12 +2157,12 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-Xq1kpf']
+        ignore line: [Change Dir: '/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/CMakeScratch/TryCompile-epl461']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_123c6/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_123c6.dir/build.make CMakeFiles/cmTC_123c6.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -std=gnu++17   -v -o CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d31fb/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d31fb.dir/build.make CMakeFiles/cmTC_d31fb.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -std=gnu++17   -v -o CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -2233,8 +2170,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_123c6.dir/']
-        ignore line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_123c6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu++17 -version -o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccZcgtw7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_d31fb.dir/']
+        ignore line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/ -isysroot /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d31fb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -std=gnu++17 -version -o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//cc4tr6g3.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) version 14.2.1 20241119 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -2257,14 +2194,14 @@ events:
         ignore line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 27b9f5562618372de894011fc251f42d]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_123c6.dir/']
-        ignore line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccZcgtw7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_d31fb.dir/']
+        ignore line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o /var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//cc4tr6g3.s]
         ignore line: [GNU assembler version 2.43.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 2.43.1.20241119]
         ignore line: [COMPILER_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_123c6.elf]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_123c6.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_d31fb.elf]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d31fb.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper]
@@ -2275,17 +2212,17 @@ events:
         ignore line: [gcc version 14.2.1 20241119 (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) ]
         ignore line: [COMPILER_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/:/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_123c6.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_123c6.elf.']
-        link line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//cc9gvw0x.res --sysroot=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -X -o cmTC_123c6.elf -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_d31fb.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_d31fb.elf.']
+        link line: [ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2 -plugin /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so -plugin-opt=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccOM73Av.res --sysroot=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi -X -o cmTC_d31fb.elf -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1 -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib -L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o]
           arg [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../libexec/gcc/arm-none-eabi/14.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//cc9gvw0x.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/zx/43nsnkq92p75n4ms11qytmdc0000gn/T//ccOM73Av.res] ==> ignore
           arg [--sysroot=/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_123c6.elf] ==> ignore
+          arg [cmTC_d31fb.elf] ==> ignore
           arg [-L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp] ==> dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp]
           arg [-L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
           arg [-L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
@@ -2294,11 +2231,11 @@ events:
           arg [-L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib] ==> dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib]
           arg [-L/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib] ==> dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
         ignore line: [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_123c6.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_123c6.elf.']
-        ignore line: [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_123c6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_123c6.elf]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_d31fb.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_d31fb.elf.']
+        ignore line: [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_d31fb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d31fb.elf]
         ignore line: []
         ignore line: []
         collapse library dir [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp] ==> [/Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/softfp]
@@ -2358,23 +2295,23 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "NEVER"
     candidates:
       -
-        path: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/pkgRedirects/picotoolConfig.cmake"
+        path: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/pkgRedirects/picotoolConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/pkgRedirects/picotool-config.cmake"
+        path: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/pkgRedirects/picotool-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/pkgRedirects/lib32/cps/picotool.cps"
+        path: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/pkgRedirects/lib32/cps/picotool.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/pkgRedirects/lib/cps/picotool.cps"
+        path: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/pkgRedirects/lib/cps/picotool.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/pkgRedirects/share/cps/picotool.cps"
+        path: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/pkgRedirects/share/cps/picotool.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -2518,26 +2455,6 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/picotoolConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/picotool-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/lib32/cps/picotool.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/lib/cps/picotool.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/share/cps/picotool.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
         path: "/opt/picotoolConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2577,7 +2494,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2632,7 +2548,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -2676,7 +2591,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2857,7 +2771,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3064,9 +2977,6 @@ events:
       - "/opt/pmk/env/global/bin/bin/"
       - "/opt/pmk/env/global/bin/Scripts/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/Scripts/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/usr/local/bin/bin/"
       - "/usr/local/bin/Scripts/"
       - "/usr/local/bin/"
@@ -5876,7 +5786,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -5931,23 +5840,23 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "NEVER"
     candidates:
       -
-        path: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/pkgRedirects/pioasmConfig.cmake"
+        path: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/pkgRedirects/pioasmConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/pkgRedirects/pioasm-config.cmake"
+        path: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/pkgRedirects/pioasm-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/pkgRedirects/lib32/cps/pioasm.cps"
+        path: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/pkgRedirects/lib32/cps/pioasm.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/pkgRedirects/lib/cps/pioasm.cps"
+        path: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/pkgRedirects/lib/cps/pioasm.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/zanderchierici/Desktop/ME433/hw3/build/CMakeFiles/pkgRedirects/share/cps/pioasm.cps"
+        path: "/Users/zanderchierici/Documents/GitHub/ME433/hw3/build/CMakeFiles/pkgRedirects/share/cps/pioasm.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -6091,26 +6000,6 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/pioasmConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/pioasm-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/lib32/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/lib/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/share/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
         path: "/opt/pioasmConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -6150,7 +6039,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -6197,7 +6085,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -6238,7 +6125,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/doxygen"
       - "/opt/pkg/env/active/bin/doxygen"
       - "/opt/pmk/env/global/bin/doxygen"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/doxygen"
       - "/usr/local/bin/doxygen"
       - "/usr/local/sbin/doxygen"
       - "/usr/local/doxygen"
@@ -6283,7 +6169,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -6330,7 +6215,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/opt/pkg/env/active/bin/"
       - "/opt/pmk/env/global/bin/"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -6375,7 +6259,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dot"
       - "/opt/pkg/env/active/bin/dot"
       - "/opt/pmk/env/global/bin/dot"
-      - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/dot"
       - "/usr/local/bin/dot"
       - "/usr/local/sbin/dot"
       - "/usr/local/dot"
@@ -6424,7 +6307,6 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/zanderchierici/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/zanderchierici/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"

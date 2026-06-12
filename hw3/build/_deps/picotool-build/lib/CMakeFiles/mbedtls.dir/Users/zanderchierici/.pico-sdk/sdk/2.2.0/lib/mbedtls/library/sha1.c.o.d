@@ -2,7 +2,7 @@ lib/CMakeFiles/mbedtls.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/sha1.c \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
   /Users/zanderchierici/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/build_info.h \
-  /Users/zanderchierici/Desktop/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \

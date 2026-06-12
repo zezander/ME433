@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/embedded_data"
   "flash_id_bin.h"
+  "rp2350.rom.h"
   "xip_ram_perms_elf.h"
 )
 

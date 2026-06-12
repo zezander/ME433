@@ -17,9 +17,9 @@ CMakeFiles/hw3.dir/Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardw
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/version.h \
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/version.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/config.h \
- /Users/zanderchierici/Desktop/ME433/hw3/build/generated/pico_base/pico/config_autogen.h \
+ /Users/zanderchierici/Documents/GitHub/ME433/hw3/build/generated/pico_base/pico/config_autogen.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico2.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/pico_platform/include/pico/platform.h \
