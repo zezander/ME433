@@ -56,7 +56,6 @@ target_link_libraries(hw4
         pico_stdlib
         hardware_i2c
         hardware_adc
-    	pico_cyw43_arch_none
         )
 
 pico_add_extra_outputs(hw4)

@@ -106,7 +106,7 @@ int main() {
         //ssd1306_update();
 
         //-----draw string (pt. 3)-----
-        //sprintf(message, "Hello %d", i);  // create message with changing number
+        //sprintf(message, "Hello darkness my old friend  %d", i);  // create message with changing number
         //ssd1306_clear();
         //drawString(10, 10, message);  // draw the message on the OLED
         //ssd1306_update();
