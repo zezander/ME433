@@ -1,0 +1,7 @@
+/Users/zanderchierici/Documents/GitHub/ME433/hw7/build/_deps/picotool/picotool
+/Users/zanderchierici/Documents/GitHub/ME433/hw7/build/_deps/picotool/picotoolTargets.cmake
+/Users/zanderchierici/Documents/GitHub/ME433/hw7/build/_deps/picotool/picotoolTargets-release.cmake
+/Users/zanderchierici/Documents/GitHub/ME433/hw7/build/_deps/picotool/picotoolConfig.cmake
+/Users/zanderchierici/Documents/GitHub/ME433/hw7/build/_deps/picotool/picotoolConfigVersion.cmake
+/Users/zanderchierici/Documents/GitHub/ME433/hw7/build/_deps/picotool/enc_bootloader.elf
+/Users/zanderchierici/Documents/GitHub/ME433/hw7/build/_deps/picotool/enc_bootloader_mbedtls.elf
