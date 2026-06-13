@@ -3,125 +3,80 @@
 #include "hardware/i2c.h"
 
 // I2C defines
+// This example will use I2C0 on GPIO8 (SDA) and GPIO9 (SCL) running at 400KHz.
+// Pins can be changed, see the GPIO function select table in the datasheet for information on GPIO assignments
 #define I2C_PORT i2c0
 #define I2C_SDA 4
 #define I2C_SCL 5
-#define LED 15          // heartbeat LED wired directly to Pico GPIO15
-#define CHIP_ADDRESS 0x20  // A0/A1/A2 all grounded -> 0100000 = 0x20
-#define IODIR 0x00
-#define OLAT 0x0A
-#define GPIO_REG 0x09
+#define ADDR 0b0100000
 
-// function prototypes
-void setPin(unsigned char reg, unsigned char value);
-unsigned char readPin(unsigned char reg);
-void heartbeat();
+void init_mpc();
+bool read_mpc(int pin);
+void write_mpc(int pin, uint8_t value);
 
 int main()
 {
-    stdio_init_all();
+stdio_init_all();
 
-    // wait for USB serial connection so we don't miss early prints
-    while (!stdio_usb_connected()) {
-        tight_loop_contents();
+// I2C Initialisation. Using it at 400Khz.
+i2c_init(I2C_PORT, 400*1000);
+gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
+gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
+uint8_t buf[2];
+uint8_t read_reg[2];
+
+
+// For more examples of I2C use see <https://github.com/raspberrypi/pico-examples/tree/master/i2c>
+
+// Initialize the pins as GPIO outputs
+init_mpc();
+
+while (true) {
+    while (read_mpc(0) == 1) {
+        write_mpc(7, 1);
+        write_mpc(6, 1);
+        sleep_ms(200);
+        write_mpc(6, 0);
+        sleep_ms(200);
     }
-    printf("=== Pico booted, USB connected ===\n");
-
-    // I2C Initialisation at 400KHz
-    i2c_init(I2C_PORT, 400*1000);
-    gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
-    gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
-    gpio_pull_up(I2C_SDA);
-    gpio_pull_up(I2C_SCL);
-    printf("I2C initialized on SDA=GPIO%d, SCL=GPIO%d\n", I2C_SDA, I2C_SCL);
-
-    printf("Scanning I2C...\n");
-    for (int addr = 0; addr < 128; addr++) {
-        // skip reserved address ranges
-        if ((addr & 0x78) == 0 || (addr & 0x78) == 0x78) continue;
-
-        uint8_t rxdata;
-        int result = i2c_read_blocking(I2C_PORT, addr, &rxdata, 1, false);
-        if (result >= 0) {
-            printf("Found device at 0x%02X\n", addr);
-        }
-    }
-
-    // set up heartbeat LED on Pico
-    gpio_init(LED);
-    gpio_set_dir(LED, GPIO_OUT);
-    printf("Heartbeat LED initialized on GPIO%d\n", LED);
-
-    // initial MCP23008 configuration
-    // GP7 = output (LED), GP0-GP6 = inputs (button on GP0)
-    printf("Configuring MCP23008 IODIR...\n");
-    setPin(IODIR, 0b01111111); // GP7 output, everything else input
-
-    // read back IODIR to verify it was set correctly
-    unsigned char iodir_check = readPin(IODIR);
-    printf("IODIR readback: 0x%02X (expected 0x7F)\n", iodir_check);
-    if (iodir_check == 0x7F) {
-        printf("MCP23008 config OK!\n");
-    } else {
-        printf("WARNING: IODIR mismatch - check wiring/address\n");
-    }
-
-    int loop_count = 0;
-
-    while (true) {
-        // heartbeat blink - shows Pico is alive and not stuck
-        heartbeat();
-
-        // read button state from MCP23008 GP0
-        uint8_t gpio_val = readPin(GPIO_REG);
-        printf("Loop %d | GPIO_REG=0x%02X | GP0(button)=%d\n",
-               loop_count, gpio_val, gpio_val & 0x01);
-
-        if (gpio_val & 0x01) {
-            // GP0 high = button NOT pressed (pull-up)
-            printf("  Button: not pressed -> LED off\n");
-            setPin(OLAT, 0b00000000);
-        } else {
-            // GP0 low = button pressed
-            printf("  Button: PRESSED -> LED on GP7\n");
-            setPin(OLAT, 0b10000000);
-        }
-
-        loop_count++;
-        sleep_ms(100);
-    }
+    write_mpc(7, 0);
+    write_mpc(6, 1);
+    sleep_ms(200);
+    write_mpc(6, 0);
+    sleep_ms(200);
 }
 
-void setPin(unsigned char reg, unsigned char value) {
-    uint8_t buf[2];
-    buf[0] = reg;
-    buf[1] = value;
-    int result = i2c_write_blocking_until(I2C_PORT, CHIP_ADDRESS, buf, 2, false,
-                                          make_timeout_time_ms(100));
-    if (result == PICO_ERROR_GENERIC || result == PICO_ERROR_TIMEOUT) {
-        printf("ERROR: i2c_write failed/timeout for reg=0x%02X\n", reg);
-    }
 }
 
-unsigned char readPin(unsigned char reg) {
-    uint8_t val = 0xFF;
-    int wr = i2c_write_blocking_until(I2C_PORT, CHIP_ADDRESS, &reg, 1, true,
-                                      make_timeout_time_ms(100));
-    if (wr == PICO_ERROR_GENERIC || wr == PICO_ERROR_TIMEOUT) {
-        printf("ERROR: i2c_write timeout reg=0x%02X\n", reg);
-        return val;
-    }
-    int rd = i2c_read_blocking_until(I2C_PORT, CHIP_ADDRESS, &val, 1, false,
-                                     make_timeout_time_ms(100));
-    if (rd == PICO_ERROR_GENERIC || rd == PICO_ERROR_TIMEOUT) {
-        printf("ERROR: i2c_read timeout reg=0x%02X\n", reg);
-    }
-    return val;
+void init_mpc() {
+uint8_t buf[2];
+buf[0] = 0x0;
+buf[1] = 0b00111111;
+i2c_write_blocking(i2c_default, ADDR, buf, 2, false);
 }
 
-void heartbeat() {
-    gpio_put(LED, 1);
-    sleep_ms(50);
-    gpio_put(LED, 0);
-    sleep_ms(50);
+bool read_mpc(int pin) {
+int out;
+uint8_t read_reg[2];
+read_reg[0] = 0x09;
+uint8_t pin_bit = 0b1 << pin;
+i2c_write_blocking(i2c_default, ADDR, &read_reg[0], 1, true);  // true to keep host control of bus
+i2c_read_blocking(i2c_default, ADDR, &read_reg[1], 1, false);  // false - finished with bus
+out = (pin_bit & read_reg[1]) >> pin;
+return (bool) out;
+}
+
+void write_mpc(int pin, uint8_t value) {
+uint8_t write_buf[2];
+write_buf[0] = 0x0A;
+i2c_write_blocking(i2c_default, ADDR, &write_buf[0], 1, true);  // true to keep host control of bus
+i2c_read_blocking(i2c_default, ADDR, &write_buf[1], 1, false);  // false - finished with bus
+if (value == 1) {
+write_buf[1] = ((value << pin) | write_buf[1]);
+i2c_write_blocking(i2c_default, ADDR, write_buf, 2, false);
+}
+if (value == 0) {
+write_buf[1] = (write_buf[1] & (~(1 << pin)));
+i2c_write_blocking(i2c_default, ADDR, write_buf, 2, false);
+}
 }

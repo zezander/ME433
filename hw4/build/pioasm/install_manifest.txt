@@ -1,0 +1,5 @@
+/Users/zanderchierici/Documents/GitHub/ME433/hw4/build/pioasm-install/pioasm/pioasm
+/Users/zanderchierici/Documents/GitHub/ME433/hw4/build/pioasm-install/pioasm/pioasmTargets.cmake
+/Users/zanderchierici/Documents/GitHub/ME433/hw4/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/Users/zanderchierici/Documents/GitHub/ME433/hw4/build/pioasm-install/pioasm/pioasmConfig.cmake
+/Users/zanderchierici/Documents/GitHub/ME433/hw4/build/pioasm-install/pioasm/pioasmConfigVersion.cmake
