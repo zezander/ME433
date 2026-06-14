@@ -53,7 +53,8 @@ while running:
     display_angle_rad = math.radians(display_angle_deg)
 
     end_x = center_x + arm_length * math.sin(display_angle_rad)
-    end_y = center_y - arm_length * math.cos(display_angle_rad)
+    end_y = center_y + arm_length * math.cos(display_angle_rad)
+    print(f"angle={angle_deg:.1f} x={x_pos:.3f} load={load_raw:.0f}")
 
     # Draw pivot
     pygame.draw.circle(screen, (0, 0, 0), (center_x, center_y), 18)

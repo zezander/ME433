@@ -17,6 +17,7 @@ CMakeFiles/HW18.dir/HW18.c.o: \
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_types.h \
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/lock.h \
  /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/stdio.h \
+ /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/math.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/types.h \
@@ -76,7 +77,6 @@ CMakeFiles/HW18.dir/HW18.c.o: \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/i2c.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/i2c.h \
- /Users/zanderchierici/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/math.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_structs/include/hardware/structs/pwm.h \
  /Users/zanderchierici/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/pwm.h
